@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Johannes Walter – Sänger, Pianist & Organist</title>
+<style>
+body { margin:0; font-family:Arial, sans-serif; background:#f4f4f4; }
+header, footer { background:#111; color:#fff; }
+header { padding:20px; }
+nav a { color:#fff; margin-right:15px; text-decoration:none; }
+nav a:hover { text-decoration:underline; }
+.container { max-width:1100px; margin:40px auto; background:#fff; padding:20px; }
+.row { display:flex; gap:20px; }
+.text { flex:2; }
+.media { flex:1; }
+.media img, .media iframe { width:100%; }
+footer { text-align:center; padding:15px; font-size:13px; }
+
+.row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start; /* linke + rechte Spalte oben ausrichten */
+}
+
+.media {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Bilder stapeln */
+  justify-content: flex-start; /* oben ausrichten */
+  gap: -40px; /* Abstand zwischen den Bildern */
+  margin-top: -10; /* kein zusätzlicher Abstand */
+  padding-top: 0;
+}
+.media img:first-child {
+  margin-top: -120px; /* nach oben verschieben */
+}
+.media img {
+  width: 100%;
+  height: auto;
+}
+
+.video-row {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.video-row iframe {
+  width: 100%;
+  height: 240px;
+}
+
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+  .video-row {
+    flex-direction: column;
+  }
+  .media {
+    flex-direction: column; /* Bilder untereinander */
+    gap: 20px; /* normalen Abstand wiederherstellen */
+  }
+}
+.vita td.jahr {
+  padding-right: 60px; /* Abstand zwischen Name und Instrument */
+}
+
+.vita td.info {
+  padding-left: 0; /* optional */
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Johannes Walter – Sänger, Pianist & Organist</h1>
+<nav>
+<a href="index.html">Start</a>
+<a href="schulmusiker.html">Schulmusiker</a>
+<a href="saenger-pianist.html">Sänger & Pianist</a>
+<a href="organist.html">Organist</a>
+<a href="kompositionen.html">Kompositionen</a>
+<a href="syndikath.html">Syndikath</a>
+</nav>
+</header>
+
+<div class="container">
+          <h2>Syndikath</h2>   
+<div class="row">
+    <div class="text">
+      <p>
+        Aus dem Bistum Limburg stammend steht Syndikath stilistisch für christliche Popmusik, kann aber auch - egal ob NGL oder Lobpreis - anders. Markenzeichen ist der mehrstimmige Gesang, der von Violine oder Saxophon umrundet, sich auf dem Fundament der Rhythmusgruppe bewegt. Neben Covern stehen bei Syndikath eigene Titel auf dem Programm.
+
+        <br><br><br><br><strong>Aktuelle Besetzung:</strong><br><br>
+
+        <table class="vita">
+        <tr>
+          <td class="jahr">Clara Vogel</td>
+          <td class="info">Gesang</td>
+        </tr>
+        <tr>
+          <td class="jahr">Sarah Krebs</td>
+          <td class="info">Gesang, Geige, Saxophon</td>
+        </tr>
+        <tr>
+          <td class="jahr">Johannes Walter</td>
+          <td class="info">Gesang, Klavier, Synthesizer
+          </td>
+        </tr>
+         <tr>
+          <td class="jahr">André Vaccaro</td>
+          <td class="info">Gitarre
+          </td>
+        </tr>
+         <tr>
+          <td class="jahr">Thomas Klima </td>
+          <td class="info">Bass
+          </td>
+          <tr>
+          <td class="jahr">Hendrik Lieser</td>
+          <td class="info">Gesang, Schlagzeug
+          </td>
+        </tr>
+      </table>
+
+
+      </p>
+<br><br>
+      <!-- VIDEOS UNTER DEM TEXT -->
+      <div class="video-row">
+        <iframe
+            src="https://www.youtube.com/embed/jJ_IT7RqyLI"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+        <iframe
+            src="https://www.youtube.com/embed/2hgdKnqKsp8"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+      <p>
+      </p>
+      </div>
+
+             <p><br><br><br><strong>Kontakt:</strong> </p>
+<p><a href="mailto:syndikath@gmx.de">E-Mail an Syndikath</a></p>
+<p><a href="syndikath.com">Syndikath - Youtubekanal</a></p>
+
+    </div>
+
+<div class="media">
+    <img src="Syndikath Logogroß.png" alt="Logo Syndikath">
+    <img src="SyndikathPetersplatz.jpg" alt="Syndikath Petersplatz">
+</div>
+</div>
+</div>
+
+<footer>
+© Johannes Walter | <a href="impressum.html">Impressum</a>
+</footer>
+</body>
+</html>
